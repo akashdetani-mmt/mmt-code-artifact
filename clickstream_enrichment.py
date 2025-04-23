@@ -9,8 +9,8 @@ order_df_col = spark.read.json("Dataset/order.json", multiLine=True).columns
 
 combined_col = set(clickstream_df_col+order_df_col)
 
-clickstream_df = spark.read.json("Dataset/clickstream.json", multiLine=True)
-order_df = spark.read.json("Dataset/order.json", multiLine=True)
+clickstream_df = spark.readStream.json("Dataset/clickstream.json", multiLine=True)
+order_df = spark.readStream.json("Dataset/order.json", multiLine=True)
 
 clickstream_df = clickstream_df.withColumn("booking_details_id", f.col("booking_details.id"))
 
