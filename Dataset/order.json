@@ -1,0 +1,17 @@
+{
+  "event_id": "2134-dfg21-56sda-092126",
+  "page_name": "order",
+  "event_timestamp": "17908755566",
+  "booking_details": {
+    "id": "ZC99810012",
+    "amount": 7890,
+    "location": "Bangalore",
+    "device_id": "HASH#####09098"
+  },
+  "uuid": "1234-5678-11223-33221",
+  "event_details": {
+    "event_name": "booking-confirmed",
+    "event_type": "system-action",
+    "event_value": "card-1-booked"
+  }
+}
