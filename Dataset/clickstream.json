@@ -1,0 +1,52 @@
+[
+{
+  "event_id": "1234-dfg21-56sda-092123",
+  "page_name": "selection",
+  "event_timestamp": "17908755562",
+  "booking_details": "",
+  "uuid": "1234-5678-11223-33221",
+  "event_details": {
+    "event_name": "user-selection",
+    "event_type": "user-action",
+    "event_value": "card-1-selected"
+  }
+},
+{
+  "event_id": "1234-dfg21-56sda-092124",
+  "page_name": "review",
+  "event_timestamp": "17908755563",
+  "booking_details": {},
+  "uuid": "1234-5678-11223-33221",
+  "event_details": {
+    "event_name": "user-review",
+    "event_type": "user-action",
+    "event_value": "card-1-reviewed"
+  }
+},
+  {
+    "event_id": "1234-dfg21-56sda-092125",
+    "page_name": "booking",
+    "event_timestamp": "17908755564",
+    "booking_details": {
+      "id": "ZC99810012"
+    },
+    "uuid": "1234-5678-11223-33221",
+    "event_details": {
+      "event_name": "user-booked",
+      "event_type": "user-action",
+      "event_value": "card-1-booked"
+    }
+  },
+  {
+    "event_id": "1234-dfg21-56sda-092126",
+    "page_name": "thankyou",
+    "event_timestamp": "17908755566",
+    "booking_details": {},
+    "uuid": "1234-5678-11223-33221",
+    "event_details": {
+      "event_name": "user-exited",
+      "event_type": "system-action",
+      "event_value": ""
+    }
+  }
+]
